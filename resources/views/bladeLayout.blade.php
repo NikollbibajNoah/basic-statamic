@@ -11,7 +11,7 @@
 
 @include('partials.navbar')
 
-<main class="mx-auto px-2 lg:min-h-screen flex flex-col items-center justify-center">
+<main class="mx-auto px-2 lg:min-h-screen mt-12">
     @yield('content')
 </main>
 
