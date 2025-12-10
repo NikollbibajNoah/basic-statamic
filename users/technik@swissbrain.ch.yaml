@@ -1,0 +1,8 @@
+name: technik
+super: true
+id: 35ffc26b-6e20-4d37-b950-059782ca2aa8
+password_hash: $2y$12$Yuraj6hEXpXrNLRZ0Fl3Xe9ZffZDMijKHTZkKavZeSq0RB/EI1Ph6
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing

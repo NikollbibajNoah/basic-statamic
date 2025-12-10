@@ -1,0 +1,19 @@
+tree:
+  -
+    id: 0f59dd74-b17d-4fe6-b032-4121cefc2827
+    title: Home
+    url: 'https://basic.test'
+    data:
+      external_link: false
+  -
+    id: cc7d1ca3-e0b4-4c94-bbd7-2d005270b3e1
+    title: About
+    url: 'https://basic.test/about'
+    data:
+      external_link: false
+  -
+    id: 85d21b0c-596a-49ec-beb4-b43d3b11bf51
+    title: GitHub
+    url: 'https://github.com/NikollbibajNoah'
+    data:
+      external_link: true

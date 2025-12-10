@@ -1,0 +1,50 @@
+title: Landing
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: subtitle
+            field:
+              type: markdown
+              display: Subtitle
+          -
+            handle: teaser
+            field:
+              type: text
+              display: teaser
+          -
+            handle: show_lighting
+            field:
+              default: true
+              type: toggle
+              display: 'Show Lighting'
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true
